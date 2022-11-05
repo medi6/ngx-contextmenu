@@ -25,7 +25,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "npm run build:lib && npm run build:demo",
-    "build:demo": "rimraf dist/demo && ng build",
+    "build:demo": "rimraf dist/demo && ng build your-awesome-library",
     "build:lib": "ng build ngx-contextmenu --configuration production && copyfiles README.md LICENSE dist/ngx-contextmenu/",
     "test": "ng test",
     "lint": "ng lint",
@@ -69,5 +69,8 @@
     "tslint": "~6.1.3",
     "typescript": "~4.7.4",
     "zone.js": "~0.11.4"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0"
   }
 }
