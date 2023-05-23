@@ -1,6 +1,6 @@
 {
-  "name": "@erengee/ngx-contextmenu",
-  "version": "6.0.1",
+  "name": "@arche-mc2/ngx-contextmenu",
+  "version": "15.0.0",
   "description": "An Angular component to show a context menu on an arbitrary component",
   "keywords": [
     "angular2",
@@ -11,16 +11,16 @@
     "ng2",
     "ng2-contextmenu"
   ],
-  "author": "Valentin Katyshev <kutaxoff@icloud.com>",
+  "author": "David Ruty <david.ruty@arche-mc2.fr>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kutaxoff/ngx-contextmenu.git"
+    "url": "git://github.com/medi6/ngx-contextmenu.git"
   },
   "peerDependencies": {
-    "@angular/cdk": ">=14.0.0",
-    "@angular/common": ">=14.0.0",
-    "@angular/core": ">=14.0.0"
+    "@angular/cdk": ">=15.0.0",
+    "@angular/common": ">=15.0.0",
+    "@angular/core": ">=15.0.0"
   },
   "publishConfig": {
     "access": "public",
