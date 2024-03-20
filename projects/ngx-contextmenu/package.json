@@ -1,6 +1,6 @@
 {
   "name": "@arche-mc2/ngx-contextmenu",
-  "version": "17.0.1",
+  "version": "17.0.2",
   "description": "An Angular component to show a context menu on an arbitrary component",
   "keywords": [
     "angular2",
